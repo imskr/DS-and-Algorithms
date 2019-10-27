@@ -18,8 +18,8 @@ int main(){
     cout<<"Enter 5 elements in Ascending order: ";
     for (unsigned int i = 0; i < 5; i++) 
 	{
-        cin >> input;
-		A.push_back(input);
+            cin >> input;
+	    A.push_back(input);
 	}
     cout<<"Vector A: ";
     for(unsigned int i = 0; i < A.size(); i++){
