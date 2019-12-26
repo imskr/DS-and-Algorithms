@@ -20,15 +20,15 @@
 The above arrangement is achieved by the following steps.
  *  pointer is fixed at the pivot element. The pivot element is compared with the elements beginning from the first index. If the element greater than the pivot element is reached, a second pointer is set for that element.  
  * Now, the pivot element is compared with the other elements. If element smaller than the pivot element is reached, the smaller element is swapped with the greater element found earlier.
-    <p align=center><img src="images/quicksort_3.png" alt="drawing" width="400" height=300 align="center"/></p>
+    <p align=center><img src="images/quicksort_3.png" alt="drawing" width="400" height=400 align="center"/></p>
 
 * The process goes on until the second last element is reached.
  
 * Finally, the pivot element is swapped with the second pointer.
-     <p align=center><img src="images/quicksort_4.png" alt="drawing" width="400" height=300 align="center"/></p>
+     <p align=center><img src="images/quicksort_4.png" alt="drawing" width="400" height=400 align="center"/></p>
 
 3. Pivot elements are again chosen for the left and the right sub-parts separately. Within these sub-parts, the pivot elements are placed at their right position. Then, step 2 is repeated.
-    <p align=center><img src="images/quicksort_5.png" alt="drawing" width="400" height=300 align="center"/></p>
+    <p align=center><img src="images/quicksort_5.png" alt="drawing" width="400" height=400 align="center"/></p>
 
 4. The sub-parts are again divided into smallest sub-parts until each subpart is formed of a single element.
 5. At this point, the array is already sorted.
@@ -44,9 +44,9 @@ The left and the right subparts are again partitioned using the by selecting piv
 
  <b>Combine</b><br>
 This step does not play a significant role in quicksort. The array is already sorted at the end of the conquer step.
-<p align=center><img src="images/quicksort_6.png" alt="drawing" width="550" height=400 align="center"/></p>
+<p align=center><img src="images/quicksort_6.png" alt="drawing" width="550" height=300 align="center"/></p>
 <br>
-<p align=center><img src="images/quicksort_7.png" alt="drawing" width="550" height=400 align="center"/></p>
+<p align=center><img src="images/quicksort_7.png" alt="drawing" width="550" height=300 align="center"/></p>
 
 
 ## Time Complexity
