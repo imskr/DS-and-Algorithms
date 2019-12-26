@@ -1,9 +1,9 @@
 # Quick Sort Algorithm
 ## Introduction
 
-<p> Quick sort is considered as the most efficient algorithm and it is based on <b>Divide and Conquer Approach</b>. <br>
+<p> Quick sort is considered as the most efficient algorithm and it is based on <b>Divide and Conquer Approach</b>. <br></p>
 ## Algorithm 
-<i><b>Pivot element</b> can be any element from the array, it can be the first element, the last element or any random element. In this tutorial, we will take the rightmost element or the last element as pivot.</i>
+<p><i><b>Pivot element</b> can be any element from the array, it can be the first element, the last element or any random element. In this tutorial, we will take the rightmost element or the last element as pivot.</i>
 
 
 <hr>
