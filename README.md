@@ -2,6 +2,6 @@
 
 ## Not Accepting PR! 
 
-The Correct implementation of Data Structure and Algorithms!
+Collection of Data Structure and Algorithms!
 
 ![ds](images/images.png)
